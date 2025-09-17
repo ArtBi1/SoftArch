@@ -13,14 +13,6 @@
 **Пример бизнес-логики:** [OrderCalculator.cs](https://github.com/ArtBi1/SoftArch/blob/main/OrderCalculator.cs)  
 **Unit Test для бизнес-логики:** [OrderCalculatorTests.cs](https://github.com/ArtBi1/SoftArch/blob/main/OrderCalculatorTests.cs)
 
-**Пояснение:**  
-Для примера взята простая бизнес-логика сервиса расчёта заказа (OrderService), который:
-
-1. Рассчитывает итоговую стоимость заказа с учётом скидки за объём и промо-кода.  
-2. Проверяет макс. скидку.  
-3. Валидирует входные данные (товары > 0, цена > 0).  
-4. Вычисляет налог (например НДС 20%) и итоговую сумму.
-
 ---
 
 ## Задание n
